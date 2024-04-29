@@ -1,10 +1,12 @@
 {
+  "homepage": "https://jeetahirwar.github.io/02Counter-react",
   "name": "02counter",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "deploy": "vite build && gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
